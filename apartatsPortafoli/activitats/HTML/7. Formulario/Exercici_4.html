@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Buscar cámara</title>
+</head>
+<body>
+
+<form action="#" method="get">
+
+    <fieldset>
+        <legend>Búsqueda de cámaras</legend>
+
+        <label>
+            Marca:
+            <input type="text" name="marca">
+        </label>
+        <br><br>
+
+        <label>
+            Precio máximo:
+            <input type="number" name="precio">
+        </label>
+        <br><br>
+
+        Tipo de cámara:
+        <br>
+        <input type="radio" name="tipo" value="reflex"> Réflex
+        <input type="radio" name="tipo" value="mirrorless"> Mirrorless
+        <input type="radio" name="tipo" value="compacta"> Compacta
+        <br><br>
+
+        Características:
+        <br>
+        <input type="checkbox" name="video4k"> Vídeo 4K
+        <input type="checkbox" name="wifi"> WiFi
+        <input type="checkbox" name="estabilizacion"> Estabilización
+        <br><br>
+
+        <label>
+            Resolución:
+            <select name="resolucion">
+                <option value="" disabled selected>Elige una opción</option>
+                <option value="20">20 MP</option>
+                <option value="24">24 MP</option>
+                <option value="30">30 MP o más</option>
+            </select>
+        </label>
+        <br><br>
+
+        <label>
+            Comentarios:
+            <textarea name="comentarios"></textarea>
+        </label>
+        <br><br>
+
+        <button type="submit">Buscar</button>
+
+    </fieldset>
+
+</form>
+<br>
+<a href="/activitats.html">Ir a las actividades</a>
+
+</body>
+</html>
