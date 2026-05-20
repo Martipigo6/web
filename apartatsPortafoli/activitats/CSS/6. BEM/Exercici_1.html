@@ -1,21 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Actividad 1</title>
+
+    <style>
+
+        .header{
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            padding:15px;
+            background-color:lightgray;
+        }
+
+        .header__nav a{
+            margin:10px;
+            text-decoration:none;
+            color:black;
+        }
+
+    </style>
+
 </head>
 <body>
-    <header class="header">
-  <nav class="nav">
-    <ul class="nav__list">
-      <li>
-        <a href="#" class="nav__link">Inicio</a>
-      </li>
-    </ul>
-  </nav>
-</header>
-<a href="../../activitats_css.html">Tornar a activitats</a>
 
+    <header class="header">
+
+        <div class="header__logo">
+            LOGO
+        </div>
+
+        <nav class="header__nav">
+
+            <a href="#inicio">Inicio</a>
+
+            <a href="#servicios">Servicios</a>
+
+            <a href="#contacto">Contacto</a>
+
+        </nav>
+
+        <form class="header__form">
+
+            <input type="text" placeholder="Buscar">
+
+            <button>Buscar</button>
+
+        </form>
+
+    </header>
+<a href="../../activitats_css.html">Tornar a activitats</a>
 </body>
 </html>
+

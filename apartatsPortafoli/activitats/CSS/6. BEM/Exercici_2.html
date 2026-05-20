@@ -1,11 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Comentarios</title>
+
+    <style>
+
+        .comentarios{
+            width:300px;
+            margin:auto;
+        }
+
+        .comentarios__texto{
+            width:100%;
+            height:80px;
+        }
+
+        .comentarios__boton{
+            margin-top:10px;
+        }
+
+        .comentarios__lista{
+            margin-top:20px;
+            border:1px solid black;
+            padding:10px;
+        }
+
+    </style>
+
 </head>
 <body>
-    <a href="../../activitats_css.html">Tornar a activitats</a>
+
+    <div class="comentarios">
+
+        <h2>Comentarios</h2>
+
+        <textarea 
+            class="comentarios__texto"
+            placeholder="Escribe un comentario">
+        </textarea>
+
+        <br>
+
+        <button class="comentarios__boton">
+            Enviar
+        </button>
+
+        <div class="comentarios__lista">
+
+            <p>Muy buena página</p>
+
+            <p>Me gusta el diseño</p>
+
+        </div>
+
+    </div>
+<a href="../../activitats_css.html">Tornar a activitats</a>
 </body>
 </html>
